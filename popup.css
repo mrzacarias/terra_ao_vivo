@@ -1,0 +1,58 @@
+body { min-width: 175px; max-width: 600px; overflow-x: hidden; font-family: sans-serif; }
+img { margin: 8px 12px 8px 0px; border: 1px solid #CFCFCF; vertical-align: middle; width: 80px; height: 80px; float: left; }
+h2 { margin: 5px; }
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-button { height: 0px;}
+
+::-webkit-scrollbar-track-piece {
+	-webkit-border-radius: 10px;
+    background: #EFEFEF;
+	width: 1px;
+}
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px;
+    background: #F90;
+	width: 10px;
+}
+
+a { display: block; color:#47423A; text-decoration:none; font-size: 16px;} 
+a:link, a:link .title{ color: #47423A; background-color:#FFF; }
+a:visited, a:visited .title, a:visited .inner_news .ttl-desc{ color:#AAA; }
+a:hover, a:hover .inner_news .ttl-desc{ color:#FA0; }
+a:hover .title{ color:#FA0; text-decoration: underline; }
+
+div .news{ min-width: 175px; margin: 1px 8px; padding: 12px 0px 12px 0px; border-bottom: 1px solid #CCC; vertical-align: middle; display: inline-block; }
+div .inner_news { padding: 5px; margin-bottom: -20px; }
+span.ttl-news { font-weight: bold; }
+span.ttl-desc { font-size: 12px; color:#69645C; text-decoration: none; }
+span.pubdate { font-size: 14px; font-style: italic; float: right;}
+span.guide-ttl{ font-size: 12px; }
+
+#live-esp-futb{ background-color: #EFEFEF; overflow: hidden; margin-top: 7px; }
+#live-div{ background-color: #EFEFEF; overflow: hidden; margin-top: 7px; }
+#live-not{ background-color: #EFEFEF; overflow: hidden; margin-top: 7px; }
+#live-esp{ background-color: #EFEFEF; overflow: hidden; margin-top: 7px; }
+#live-vid{ background-color: #EFEFEF; overflow: hidden; margin-top: 7px; }
+#live { background-color: #EFEFEF; overflow: hidden; }
+.ticker-title { padding: 2px; margin: 0px 0px 18px 4px;} 
+.ruler { min-width: 175px; height: 94px; margin-top: -20px; height: 72px; }
+
+.list_game { list-style: none; float: left; width: 160px; height: 76px; border: 2px solid #FED; margin-right: 5px; }
+.list_game .details{ float: left; display: inline; margin-bottom: 5px; padding-left: 16px; }
+.result { float: left; padding-top: 4px; margin-right: 1px; }
+p.championship { margin-bottom: 7px; margin-top: 0px; padding: 2px; font-size: 13px;}
+p.status { padding: 2px; margin-top: 12px; font-size: 11px;}
+.ticker-shield { float: left; width:24px; height:24px; margin: 0 10px 0 10px; border: none; }
+
+.tic-event { list-style: none; width: 160px; height: 129px; border: 2px solid #FED; margin-right: 5px; }
+.tic-event .details{ float: left; display: inline; margin-bottom: 5px; padding-left: 12px; }
+p.tic-coverage { margin-bottom: 7px; margin-top: 0px; padding: 2px; font-size: 12px;}
+p.tic-title { padding: 2px; margin-top: 50px; font-size: 11px;}
+.tic-image { width:113px; height:63px; margin: 0 10px 0 10px; border: none; }
+
+.selected-team{ background-color: #FA0;}
+
+.next, .prev { float:left; cursor: pointer; padding: 0px 2px 2px 2px; font-size: 13px; background-color: #ff9900; color: #fff; margin: 2px 0px 4px 6px;}
